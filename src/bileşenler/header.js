@@ -36,6 +36,8 @@ const headerEkleyici = (secici) => {
   //
   // İPUCU: querySelector bir string alabilir (bknz: querySelector("#wrapper"))
   // fakat aynı zamanda bir değişken de alabilir (bknz: querySelector(secici))
+  const secici1 = document.querySelector(secici);
+  secici1.appendChild(Header("AYŞEN AGAY", "28 MART 1998", "Doğum Günü"));
 };
 
 export { Header, headerEkleyici };
