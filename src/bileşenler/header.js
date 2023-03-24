@@ -24,6 +24,7 @@ const Header = (baslik, tarih, yazi) => {
   spanOlustur2.classList.add("temp");
   spanOlustur2.textContent = yazi;
   kutu.appendChild(spanOlustur2);
+  return kutu;
 };
 
 const headerEkleyici = (secici) => {
